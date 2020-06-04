@@ -1,16 +1,25 @@
 <template>
   <div>
-    <b-tabs content-class="mt-3">
+    <b-tabs content-class="mt-3" fill>
       <b-tab title="Home" active>
-        <p>I'm the first tab</p>
+        <h2>WELCOME TO INSANE ANALYTICS</h2>
       </b-tab>
       <b-tab title="Login">
-        <p>I'm the shiva tab</p>
+        <Login></Login>
       </b-tab>
       <b-tab title="SignUp">
-        <p>I'm a Signup Tab!</p>
+        <signup></signup>
       </b-tab>
     </b-tabs>
   </div>
 </template>
+
+<script>
+import Login from './Login.vue'
+import Signup from './Signup.vue'
+
+export default {
+  components: { Login, Signup }
+}
+</script>
 
