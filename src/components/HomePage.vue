@@ -5,7 +5,7 @@
         <p>I'm the first tab</p>
       </b-tab>
       <b-tab title="Login">
-        <p>I'm the Login tab</p>
+        <p>I'm the shiva tab</p>
       </b-tab>
       <b-tab title="SignUp">
         <p>I'm a Signup Tab!</p>
