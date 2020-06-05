@@ -13,7 +13,7 @@
               <b-form-group>
                 <b-form-input id="email" placeholder="Password"></b-form-input>
               </b-form-group>
-              <b-button variant="success">Submit</b-button>
+              <b-button variant="success">Let's Go</b-button>
             </b-form>
           </b-jumbotron>
         </b-col>
